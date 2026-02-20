@@ -1,0 +1,7 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: friday-app-0eda8
+  namespace: opsera-friday-app-0eda8-dev
+spec:
+  replicas: 2

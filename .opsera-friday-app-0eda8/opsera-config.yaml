@@ -1,0 +1,20 @@
+apiVersion: opsera.io/v1
+kind: OpseraConfig
+metadata:
+  name: friday-app-0eda8
+spec:
+  tenant: opsera
+  appName: friday-app-0eda8
+  environment: dev
+  cloud: aws
+  region: us-west-2
+  branch: main
+  appType: frontend
+  port: 8080
+  hubCluster: argocd-usw2
+  spokeCluster: opsera-usw2-np
+  namespace: opsera-friday-app-0eda8-dev
+  domain: agent.opsera.dev
+  url: https://friday-app-0eda8.agent.opsera.dev
+  ecrRepo: opsera/friday-app-0eda8
+  createdBy: vibe-shift
